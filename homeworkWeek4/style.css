@@ -60,7 +60,7 @@ p {
   margin-top: -5px;
 }
 
-.links li a {
+.links > li > a {
   display: inline;
   text-align: center;
   padding: 14px 16px;
