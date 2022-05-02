@@ -3,7 +3,7 @@ body {
   font-family: Montserrat,sans-serif;
   color: #415a77;
   background-image: url("images/lake.jpg");
-  position: sticky;
+  position: static;
   opacity: 0.65;
   background-position: center;
   background-position-x: center;
@@ -13,20 +13,22 @@ body {
 }
 
 header {
-  padding: 1.5em;
+  padding: 1em;
   color: #EDEAE5;
   background: #ffffff;
   background-color: #EDEAE5;
   color: #000;
+  border: 10px solid white;
+  position: sticky;
 }
 
 
 #hobbyHeader {
   color: white;
   font-weight: 800;
-  width: 400px;
-  margin: 150px;
-  text-align: center;
+  width: 200px;
+  margin: 180.9px;
+  text-align: right;
 }
 
 
@@ -37,7 +39,7 @@ p {
   font-weight: 800;
   width: 500px;
   height: 100px;
-  margin: -150px 100px 50px 100px;
+  margin: -120px 100px 50px 100px;
   text-align: center;
 }
 
@@ -66,31 +68,26 @@ p {
   font-family: Montserrat,sans-serif;
   color: black;
   list-style: none;
-
 }
 
 
 li {
   list-style: none;
   color:white;
-  margin: 40px;
 }
 
 #hobbyList {
-  color: white;
-  font-weight: 800;
-  width: 500px;
-  line-height: 0%;
-  margin: 150px;
   text-align: center;
   list-style-type: circle;
+  height: 100px;
+
 }
 
 h2 {
   color: white;
   font-weight: 800;
-  width: 400px;
-  margin: 140px;
+  width: 300px;
+  margin: 150px;
   text-align: center;
 }
 
@@ -99,12 +96,12 @@ h2 {
   font-weight: 800;
   width: 500px;
   height: 80px;
-  margin: -130px 50px 80px 60px;
+  margin: -130px 50px 80px 30px;
   text-align: center;
   font-size: 20px;
 }
 
 footer {
   text-align: end;
-
 }
+
